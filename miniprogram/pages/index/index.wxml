@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml-->
+<view class="detail">
+  <swiper indicator-dots="{{dots}}"duration="{{duration}}" autoplay="{{autoplay}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{indicatorActiveColor}}">
+    <swiper-item class="list" wx:for='{{list}}' wx:key='index'  >
+        <image src="{{item.fil_id}}"  />
+    </swiper-item>
+  </swiper>
+</view>

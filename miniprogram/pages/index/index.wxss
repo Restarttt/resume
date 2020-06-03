@@ -1,0 +1,20 @@
+/* pages/index/index.wxss */
+.detail {
+  padding: 20rpx;
+}
+
+swiper {
+  height: 1286rpx;
+  width: 632rpx;
+  position: absolute;
+  left: 8%;
+  top: 3%;
+}
+
+swiper-item {
+  margin-right: 20rpx;
+}
+image{
+  width: 100%;
+  height: 100%;
+}

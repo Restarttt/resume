@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "我的简历",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  },
+  "navigateToMiniProgramAppIdList": [
+        "wx154f96612eaa9b20"
+  ]
+
+}

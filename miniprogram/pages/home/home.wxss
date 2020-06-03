@@ -1,0 +1,164 @@
+/* pages/home/home.wxss */
+.resume {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f4f5;
+}
+
+.logo {
+  width: 100%;
+  height: 500rpx;
+  position: relative;
+}
+
+.logo image {
+  width: 100%;
+  height: 100%;
+}
+
+.logo_title {
+  position: absolute;
+  top: 28%;
+  left: 34%;
+  text-align: center;
+}
+
+.name {
+  font-size: 58rpx;
+  color: #Fff;
+  font-weight: 600;
+}
+
+.line {
+  width: 100%;
+  height: 4rpx;
+  background-color: #fff;
+  margin: 25rpx 0;
+}
+
+.post {
+  font-size: 43rpx;
+  color: #Fff;
+}
+
+/* 内容 */
+.message {
+  margin: 60rpx 35rpx;
+}
+
+/* 个人信息 */
+.message_title {
+  width: 35%;
+  height: 70rpx;
+  background-color: rgb(60, 60, 60);
+  text-align: center;
+  line-height: 70rpx;
+  border-radius: 10rpx;
+  position: relative;
+  left: 43rpx;
+  top: 4rpx
+}
+
+.title_text {
+  color: #fff;
+  font-size: 38rpx;
+  font-weight: 500;
+}
+
+.content {
+  background-color: #fff;
+  border-radius: 15rpx;
+  padding: 30rpx 25rpx;
+  z-index: 1111;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3),
+    0px 0px 20px rgba(0, 0, 0, 0.1) inset;
+   position: relative;
+}
+
+.content_frist {
+  margin: 30rpx 0;
+  display: flex;
+  /* align-items: center; */
+}
+
+.content_frist image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 25rpx;
+}
+
+.frist_text {
+  color: #323131;
+}
+
+.content_frist .tec_img {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.tec_text {
+  color: #323131;
+  font-size: 30rpx;
+  width: 84%;
+}
+.interface{
+  position:relative;
+  width: 55%;
+  height:70rpx;
+  border: 2rpx solid #c7c7c7 ;
+  background-color: #f7f0f0;
+  border-radius: 5rpx;
+  text-align: center;
+  line-height: 70rpx;
+  left: 19%;
+  font-size: 500;
+  font-size: 38rpx;
+  margin: 30rpx;
+  padding: 10rpx 0;
+}
+.cut-off{
+  width: 100%;
+  height: 3rpx;
+  background-color: #dad8d8;
+  margin:  50rpx 0;
+
+}
+/* 项目 */
+/* 、小程序 */
+.summary {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin:20rpx 0 50rpx 20rpx;
+}
+/* end */
+.end_title {
+  padding: 10rpx 30rpx;
+}
+
+.end {
+  /* width: 90%; */
+  /* position: fixed; */
+  bottom: 28px;
+}
+
+.name {
+  position: relative;
+}
+
+.line {
+  width: 100%;
+  height: 2rpx;
+  background-color: #b7b7b7;
+
+}
+
+.title {
+  color: #666;
+  position: absolute;
+  top: -18rpx;
+  left: 30%;
+  background-color: #f3f4f5;
+  width: 40%;
+  text-align: center;
+  font-size: 25rpx;
+}
